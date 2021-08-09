@@ -57,11 +57,6 @@ typedef ScrollableWidgetBuilder = Widget Function(
 /// [minChildSize] and [maxChildSize]. Use [snapSizes] to add more sizes for
 /// the sheet to snap between.
 ///
-/// By default, the widget will expand its non-occupied area to fill available
-/// space in the parent. If this is not desired, e.g. because the parent wants
-/// to position sheet based on the space it is taking, the [expand] property
-/// may be set to false.
-///
 /// {@tool snippet}
 ///
 /// This is a sample widget which shows a [ListView] that has 25 [ListTile]s.
